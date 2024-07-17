@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/410120de-4b4f-4ffd-8035-584c2c2a06ed)# Domain Discovery 💡
+# Domain Discovery 💡
 
 - [Visão Geral do Problema](#)
 - [Análise do Cenário Atual](#)
