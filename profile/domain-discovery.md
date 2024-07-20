@@ -33,3 +33,20 @@ gerenciamento eficiente desses agendamentos e consultas.
 
 Além de conter as funcionalidades de agendamento e realização de consultas online, o sistema terá o diferencial de uma nova funcionalidade: o Prontuário Eletrônico. O Prontuário Eletrônico permitirá o armazenamento e compartilhamento de documentos, exames, cartão de vacinas, e outros registros
 médicos entre as partes envolvidas, garantindo maior assertividade nos diagnósticos.
+
+## Decomposição do Problema na Visão de Domain Storytelling
+
+Nesta seção, através da aplicação da metodologia do Domain Storytelling, iremos explorar os requisitos funcionais e os atores centrais que desempenham papéis fundamentais nas narrativas compartilhadas no Hackathon.
+
+### Atores
+Partindo como base o documento de requisitos fornecido na abertura do Hackathon, 3 atores foram identificadosl:
+
+<p align="center">
+  <img width="680" src="https://github.com/FIAP-G04/.github/assets/5951374/0f0a5bb4-735e-4ab6-b103-590f319eb15f" alt="Nosso Grupo">
+</p>
+
+| Atores | Descrição |
+|--------|-----------|
+| Paciente | Usuário que busca consultas médicas e utiliza os serviços de telemedicina da Health&Med. Pode agendar consultas, acessar seu prontuário eletrônico, fazer upload de documentos médicos e compartilhar informações com médicos. |
+| Médico | Profissional de saúde registrado na plataforma da Health&Med. Pode gerenciar sua agenda de consultas, aceitar ou recusar consultas, realizar teleconsultas e acessar prontuários eletrônicos compartilhados pelos pacientes. |
+| Sistema | Plataforma tecnológica da **Health&Med** utilizada como meio de interação entre Paciente e Médico. |
