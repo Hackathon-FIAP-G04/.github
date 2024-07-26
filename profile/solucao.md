@@ -10,7 +10,7 @@
 Com base na análise dos **atores** na dinâmica do Domain Storytelling, dividimos as visões dos usuários em duas aplicações distintas. Uma aplicação atende ao escopo do **Paciente**, enquanto a outra atende à visão do **Médico**. Ambos os usuários poderão interagir com a **Plataforma Health&Med** de duas maneiras: por meio de um **portal web**, acessível através de navegadores de internet, ou através de **aplicativos móveis** disponíveis para **iOS** e **Android**.
 
 <p align="center">
-  <img width="100%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/aplicacoes-do-usuario.png" alt="Diagrama de Contexto">
+  <img width="100%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/aplicacoes-do-usuario.png" alt="Aplicações dos Usuários">
 </p>
 
 Segue abaixo os componentes referentes as aplicações dos usuários:
@@ -40,7 +40,7 @@ Segue abaixo os componentes referentes as aplicações dos usuários:
 Para atender aos requisitos de autenticação de usuários, optamos por utilizar o serviço de identidade da **AWS** chamado **Amazon Cognito**. Utilizamos dois user pools: o **healthmed-doctors-user-pool** para os médicos e o **healthmed-patients-user-pool** para os pacientes.
 
 <p align="center">
-  <img width="100%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/autenticacao-de-usuario.png" alt="Diagrama de Contexto">
+  <img width="100%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/autenticacao-de-usuario.png" alt="Autenticação do Usuário">
 </p>
 
 **(1) - Amazon Cognito** oferece uma solução robusta para gerenciar a autenticação, autorização e usuários, proporcionando várias vantagens:
@@ -59,6 +59,22 @@ Para atender aos requisitos de autenticação de usuários, optamos por utilizar
 
 
 ### Gestão de Médicos
+
+Para representar o subdomínio **Gestão de Médicos**, optamos pela criação de um microsserviço para expor as seguintes funcionalidades:
+* Cadastrar Médico
+* Alterar dados do Médico
+* Visualizar dados do Médico
+* Pesquisar Médico
+
+<p align="center">
+  <img width="100%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/gestao-de-medico-solucao.png" alt="Gestão de Médicos">
+</p>
+
+**(1) - Serviço de Gestão de Médico:** API destinada a fornecer operações relacionadas à entidade Médico. Esta API está sendo provisionada em **Kubernetes**, utilizando o serviço **Amazon Elastic Kubernetes Service (EKS)**.
+
+**(2) - Cache:** Para atender aos requisitos de desempenho e escalabilidade, adicionamos uma **camada de cache** usando **Redis** através do serviço **Amazon ElastiCache** para armazenar os dados do médico, considerando que esses dados são pouco mutáveis.
+
+**(3) - Banco de Dados:** Para o armazenamento de dados do médico, escolhemos utilizar o **Atlas MongoDB**, pois o **MongoDB** oferece recursos de consultas geoespaciais, atendendo a um dos requisitos do Hackathon.
 
 
 ### Gestão de Pacientes
