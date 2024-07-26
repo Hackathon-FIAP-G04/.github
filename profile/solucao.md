@@ -165,3 +165,17 @@ Para desenvolver uma solução de prontuário eletrônico onde pacientes podem f
 <p align="center">
   <img width="100%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/prontuario-eletronico-solucao.png" alt="Prontuário Eletrônico">
 </p>
+
+**(1) - Serviço de Prontuário Eletrônico:** API que gera URLs seguras para upload de arquivos, gerencia a criação de metadados para a busca de documentos e registra as ações na Blockchain..
+
+**(2) - Controlador de Chaves de Criptografia:** API de gerenciamento de chaves de criptografia para garantir que os dados armazenados no S3 estejam protegidos utilizando o serviço AWS Key Management Service (KMS).
+
+**(3) - Aplicações Cliente:** Aplicação Cliente que faz upload e download do documento.
+
+**(4) - Amazon S3:**  Armazenamento dos Documentos de forma segura utilizando o Amazon S3.
+
+**(5) - Fila de Documentos Adicionados:** Fila que recebe os eventos após um upload de documento.
+
+**(6) - Processador de Documento Adicionado:**
+
+**(7) - Serviço de Blockchain:**
