@@ -92,7 +92,24 @@ Para representar o subdomínio **Gestão de Pacientes**, optamos pela criação 
 
 **(2) - Banco de Dados:** Para o armazenamento dos dados do Paciente, optamos por utilizar o **Atlas MongoDB**, pois a estrutura de dados do Paciente segue um modelo de **Aggregate**, que se adapta perfeitamente ao banco de dados orientado a documentos.
 
+### Agendamento de Consulta Médica
+
+Para atender aos requisitos de agendamento de consultas médicas, implementamos um mecanismo que gera horários disponíveis na agenda do médico com base nas configurações de horário para cada dia da semana. Esse mecanismo funciona da seguinte forma:
+
+* Configuração de Horários: Cada médico define seus horários de atendimento para cada dia da semana.
+
+* Geração de Slots: Uma rotina automatizada é executada diariamente, criando os slots de agenda disponíveis com base nas configurações definidas.
+
+* Antecedência de Agendamento: Esse sistema garante que os pacientes possam agendar consultas com até 30 dias de antecedência.
+
+Essa abordagem assegura que a agenda dos médicos seja atualizada continuamente e de forma precisa, permitindo um processo de agendamento eficiente e confiável.
+
+<p align="center">
+  <img width="80%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/agendamento-de-consulta-solucao.png" alt="Agendamento de Consulta Médica">
+</p>
+
 ### Serviço de Video Chamada
+
 Para atender o escopo de realização de video chamadas entre Médico e Paciente optamos pela utilização de um serviço externo da plataforma Zoom como mostra a imagem abaixo:
 
 <p align="center">
@@ -104,3 +121,4 @@ Para atender o escopo de realização de video chamadas entre Médico e Paciente
 **(2) - Zoom:** Serviço externo de video chamada.
 
 **(3) - Aplicações Cliente:** **Front End** que realiza conexão no **Zoom** por meio de **SDK** utilizando o token gerado.
+
