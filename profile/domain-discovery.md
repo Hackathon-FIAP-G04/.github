@@ -64,6 +64,8 @@ Os domínios genéricos **(Generic Domains)** são geralmente aqueles que não s
 
 - **Autenticação & Autorização:** Responsável por garantir que médicos e pacientes possam acessar o sistema de forma segura. Médicos utilizam seu número de CRM e uma senha para login, enquanto pacientes usam e-mail, CPF e senha. Este subdomínio garante que apenas usuários autorizados acessem o sistema.
 
+- **Video Chamada:** É responsável por toda infraestrutura e serviços de realização de chamadas de video utilizadas pelo subdomínio Teleconsulta.
+
 ## Dicionário de Linguagem Ubíqua
 Segue abaixo um conjunto de palavras que compõem o dicionário de **linguagem ubíqua** ao contexto da **Health&Med**:
 
