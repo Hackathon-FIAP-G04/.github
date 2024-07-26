@@ -39,6 +39,10 @@ Um domínio se refere a uma esfera de conhecimento ou atividade no mundo real qu
 
 Por outro lado, um subdomínio é uma subdivisão ou área menor de conhecimento ou atividade dentro de um domínio mais amplo. Os subdomínios representam uma granularização desse espaço de problema e podem se concentrar em tópicos ou aspectos específicos dentro do domínio principal. Isso ajuda a organizar e categorizar o conhecimento de forma mais detalhada e específica. Desta forma, entendemos que o Domínio de Telemedicina possui os seguintes subdomínios:
 
+<p align="center">
+  <img width="100%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/subdominios.png?raw=true" alt="Subdomains">
+</p>
+
 ### Core Domains
 Os domínios principais **(Core Domains)** são aqueles que estão no cerne do negócio e geralmente são os mais complexos e específicos, dos quais temos **Agendamento de Consulta Médica**, **Prontuário Eletrônico** e **Teleconsulta**.
 
