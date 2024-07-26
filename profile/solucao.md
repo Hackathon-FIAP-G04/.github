@@ -228,3 +228,12 @@ Para a solução, foram utilizadas as seguintes tecnologias:
 * **Cognito** como pool de usuários que acessam a API
 * **Atlas MongoDB** como recurso para gerar as bases de dados na Cloud
 * **Terraform** para gerenciar e gerar os recursos na Cloud
+*  **Amazon Simple Email Service (SES)** como serviço de envio de Email
+*  **AWS Lambda** para componentes de arquitetura Serverless
+*  **AWS Key Management Service** para gerenciamento de chaves de criptografia
+*  **Amazon S3** para armazenamento de documentos e hospedagem de arquivo estático
+*  **Amazon Managed Blockchain** como serviço de Blockchain para registro das transações de documentos
+*  **AWS Simple Queue Service (SQS)** como serviço de fila
+*  **DynamoDB** para armazenamento de metadados dos documentos
+*  **AWS Elasticache** como sserviço de cache do tipo Redis
+  
