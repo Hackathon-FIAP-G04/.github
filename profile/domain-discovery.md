@@ -50,36 +50,35 @@ Partindo como base o documento de requisitos fornecido na abertura do Hackathon,
 ## Mapeamento de Domínios e Subdomínios
 Um domínio se refere a uma esfera de conhecimento ou atividade no mundo real que abrange um espaço de problema específico. Esse domínio possui sua própria linguagem, conceitos, regras e práticas que o tornam únicos. No contexto do Hackathon o nosso domínio é **Telemedicina**.
 
-Por outro lado, um subdomínio é uma subdivisão ou área menor de conhecimento ou atividade dentro de um domínio mais amplo. Os subdomínios representam uma granularização desse espaço de problema e podem se concentrar em tópicos ou aspectos específicos dentro do domínio principal. Isso ajuda a organizar e categorizar o conhecimento de forma mais detalhada e específica. Desta forma, entendemos que o Domínio da Lanchonete Fast Food possui os seguintes subdomínios:
+Por outro lado, um subdomínio é uma subdivisão ou área menor de conhecimento ou atividade dentro de um domínio mais amplo. Os subdomínios representam uma granularização desse espaço de problema e podem se concentrar em tópicos ou aspectos específicos dentro do domínio principal. Isso ajuda a organizar e categorizar o conhecimento de forma mais detalhada e específica. Desta forma, entendemos que o Domínio de Telemedicina possui os seguintes subdomínios:
 
 <p align="center">
   <img width="90%" src="https://github.com/FIAP-G04/.github/blob/main/images/subdominios-as-is.png" alt="Subdomínios AS-IS">
 </p>
 
 ### Core Domains
-Os domínios principais **(Core Domains)** são aqueles que estão no cerne do negócio e geralmente são os mais complexos e específicos, dos quais temos **Agendamento de Consulta** e **Prontuário Eletrônico**.
+Os domínios principais **(Core Domains)** são aqueles que estão no cerne do negócio e geralmente são os mais complexos e específicos, dos quais temos **Agendamento de Consulta Médica**, **Prontuário Eletrônico** e **Teleconsulta ou Video Chamada**.
 
-- **Gestão de Cardápio:** Responsável por definir os produtos oferecidos na lanchonete fast food, além de seus preços, ingredientes, categorias, promoções e variações. Faz parte do Core Domain, visto que é de extrema importância para o funcionamento eficiente da lanchonete.
+- **Agendamento de Consulta Médica:** Este subdomínio abrange todas as funcionalidades relacionadas ao gerenciamento de horários e consultas entre médicos e pacientes. Médicos podem cadastrar e editar seus horários disponíveis, aceitar ou recusar consultas agendadas pelos pacientes, enquanto os pacientes podem buscar médicos, visualizar suas agendas e agendar ou cancelar consultas conforme necessário.
 
-- **Gerenciamento de Pedidos:** Este subdomínio lida com a criação, preparação, acompanhamento, montagem e retirada dos pedidos dos clientes. Este é um **Core Domain**, pois lida diretamente com a funcionalidade central do negócio, ou seja, a criação e gestão de pedidos dos clientes. Devido a sua complexidade, poderíamos subdivídi-lo em 3 subdomínios: 
+- **Teleconsulta ou Video Chamada:** Focado na realização de consultas médicas online, este subdomínio inclui a criação automática de links para reuniões online quando uma consulta é agendada. No dia da consulta, tanto o médico quanto o paciente utilizam este link para realizar a teleconsulta, facilitando o atendimento médico à distância.
+
+- **Prontuário Eletrônico:** Este subdomínio é dedicado ao armazenamento e gerenciamento de informações médicas dos pacientes. Permite aos pacientes acessar seus prontuários eletrônicos, fazer upload de documentos como exames e laudos médicos, e gerenciar o compartilhamento desses documentos com médicos, definindo acessos específicos e durações. 
 
 ### Supporting Domains
 
 Os domínios de suporte **(Supporting Domains)** são aqueles que oferecem suporte direto às operações principais do negócio, mas não são a parte central do mesmo. Eles ajudam a impulsionar as vendas, a atrair clientes ou simplesmente garantir o funcionamento dos Core Domains. Considerando o contexto do Hackathon, temos 2 subdomínios: **Gestão de Paciente** e **Gestão de Médicos**.
 
-- **Gestão de Estoque:** Gerencia o estoque de ingredientes, as quantidades disponíveis e as encomendas de ingredientes. Embora seja um domínio importante, ele está mais voltado para dar suporte às operações principais, como garantir que os ingredientes estejam disponíveis para os pedidos. Portanto, pode ser considerado um **Supporting Domai**n. Se fossemos detalhar esse subdomínio, provavelmente teríamos mais atores envolvidos no contexto. Além disso poderíamos subdividir esse subdomínio em **3** outros **subdomínios**:
+- **Gestão de Médicos:** Facilita aos pacientes encontrar médicos disponíveis para consultas. Utiliza filtros como especialidade, distância e avaliação para que os pacientes possam escolher o médico que melhor atenda às suas necessidades, proporcionando uma experiência personalizada e eficiente. 
 
-- **Marketing & Promoções:** Este subdomínio gerencia campanhas de marketing, promoções, cupons e programas de fidelidade. Ele é responsável por um conjunto ações que visam a atração de clientes e a maximização das vendas.
+- **Gestão de Pacientes:** É responsável por todas as interações e informações relacionadas aos pacientes dentro do sistema. Isso inclui o gerenciamento dos dados pessoais dos pacientes, como informações de contato, preferências de comunicação entre outros. Os pacientes podem criar e atualizar seus perfis, visualizar e editar suas informações pessoais.
 
 ### Generic Domains
 
-Os domínios genéricos **(Generic Domains)** são geralmente aqueles que não são exclusivos para o negócio e podem ser compartilhados com outros domínios de negócio. No contexto do Hackathon, podemos considerar os possíveis subdomínios: **Notificação**, **Video Chamada** e **Autenticação & Autorização**.
+Os domínios genéricos **(Generic Domains)** são geralmente aqueles que não são exclusivos para o negócio e podem ser compartilhados com outros domínios de negócio. No contexto do Hackathon, podemos considerar os possíveis subdomínios: **Notificação** e **Autenticação & Autorização**.
 
-- **Atendimento ao Cliente:** Responsável pela gestão de reclamações, feedback do cliente e a satisfação do cliente, que por sua vez, são considerados aspectos comuns em todos os tipos de negócio.
+- **Notificação:** É responsável por gerenciar e enviar comunicações e alertas para os usuários do sistema, tanto para médicos quanto para pacientes.
 
-- **Pagamento:** Responsável pelos processos de pagamento, faturamento e transações financeiras. Embora seja de extrema importância para a lanchonete fast food, é uma funcionalidade comum a muitos tipos de negócios.
+- **Autenticação & Autorização:** Responsável por garantir que médicos e pacientes possam acessar o sistema de forma segura. Médicos utilizam seu número de CRM e uma senha para login, enquanto pacientes usam e-mail, CPF e senha. Este subdomínio garante que apenas usuários autorizados acessem o sistema.
 
-- **Financeiro:** A gestão financeira tem papel fundamental para a saúde e sustentabilidade de qualquer negócio, e a lanchonete não é exceção. Através deste subdomínio, a empresa pode acompanhar seus custos, margens de lucro, impostos e outras informações financeiras críticas para tomada de decisão.
-
-- **Recursos Humanos:** Este subdomínio desempenha um papel fundamental na gestão da equipe que trabalha na lanchonete, assegurando que haja pessoal adequado para todas as tarefas diárias. Sua responsabilidade principal consiste em garantir que a lanchonete esteja em conformidade com todas as regulamentações trabalhistas, proporcionando um ambiente de trabalho seguro e produtivo para seus funcionários. Isso é alcançado por meio do recrutamento e capacitação de profissionais apropriados.
 
