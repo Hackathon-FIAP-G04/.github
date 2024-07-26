@@ -46,3 +46,40 @@ Partindo como base o documento de requisitos fornecido na abertura do Hackathon,
 | Paciente | Usuário que busca consultas médicas e utiliza os serviços de telemedicina da Health&Med. Pode agendar consultas, acessar seu prontuário eletrônico, fazer upload de documentos médicos e compartilhar informações com médicos. |
 | Médico | Profissional de saúde registrado na plataforma da Health&Med. Pode gerenciar sua agenda de consultas, aceitar ou recusar consultas, realizar teleconsultas e acessar prontuários eletrônicos compartilhados pelos pacientes. |
 | Sistema | Plataforma tecnológica da **Health&Med** utilizada como meio de interação entre Paciente e Médico. |
+
+## Mapeamento de Domínios e Subdomínios
+Um domínio se refere a uma esfera de conhecimento ou atividade no mundo real que abrange um espaço de problema específico. Esse domínio possui sua própria linguagem, conceitos, regras e práticas que o tornam únicos. No contexto do Hackathon o nosso domínio é **Telemedicina**.
+
+Por outro lado, um subdomínio é uma subdivisão ou área menor de conhecimento ou atividade dentro de um domínio mais amplo. Os subdomínios representam uma granularização desse espaço de problema e podem se concentrar em tópicos ou aspectos específicos dentro do domínio principal. Isso ajuda a organizar e categorizar o conhecimento de forma mais detalhada e específica. Desta forma, entendemos que o Domínio da Lanchonete Fast Food possui os seguintes subdomínios:
+
+<p align="center">
+  <img width="90%" src="https://github.com/FIAP-G04/.github/blob/main/images/subdominios-as-is.png" alt="Subdomínios AS-IS">
+</p>
+
+### Core Domains
+Os domínios principais **(Core Domains)** são aqueles que estão no cerne do negócio e geralmente são os mais complexos e específicos, dos quais temos **Agendamento de Consulta** e **Prontuário Eletrônico**.
+
+- **Gestão de Cardápio:** Responsável por definir os produtos oferecidos na lanchonete fast food, além de seus preços, ingredientes, categorias, promoções e variações. Faz parte do Core Domain, visto que é de extrema importância para o funcionamento eficiente da lanchonete.
+
+- **Gerenciamento de Pedidos:** Este subdomínio lida com a criação, preparação, acompanhamento, montagem e retirada dos pedidos dos clientes. Este é um **Core Domain**, pois lida diretamente com a funcionalidade central do negócio, ou seja, a criação e gestão de pedidos dos clientes. Devido a sua complexidade, poderíamos subdivídi-lo em 3 subdomínios: 
+
+### Supporting Domains
+
+Os domínios de suporte **(Supporting Domains)** são aqueles que oferecem suporte direto às operações principais do negócio, mas não são a parte central do mesmo. Eles ajudam a impulsionar as vendas, a atrair clientes ou simplesmente garantir o funcionamento dos Core Domains. Considerando o contexto do Hackathon, temos 2 subdomínios: **Gestão de Paciente** e **Gestão de Médicos**.
+
+- **Gestão de Estoque:** Gerencia o estoque de ingredientes, as quantidades disponíveis e as encomendas de ingredientes. Embora seja um domínio importante, ele está mais voltado para dar suporte às operações principais, como garantir que os ingredientes estejam disponíveis para os pedidos. Portanto, pode ser considerado um **Supporting Domai**n. Se fossemos detalhar esse subdomínio, provavelmente teríamos mais atores envolvidos no contexto. Além disso poderíamos subdividir esse subdomínio em **3** outros **subdomínios**:
+
+- **Marketing & Promoções:** Este subdomínio gerencia campanhas de marketing, promoções, cupons e programas de fidelidade. Ele é responsável por um conjunto ações que visam a atração de clientes e a maximização das vendas.
+
+### Generic Domains
+
+Os domínios genéricos **(Generic Domains)** são geralmente aqueles que não são exclusivos para o negócio e podem ser compartilhados com outros domínios de negócio. No contexto do Hackathon, podemos considerar os possíveis subdomínios: **Notificação**, **Video Chamada** e **Autenticação & Autorização**.
+
+- **Atendimento ao Cliente:** Responsável pela gestão de reclamações, feedback do cliente e a satisfação do cliente, que por sua vez, são considerados aspectos comuns em todos os tipos de negócio.
+
+- **Pagamento:** Responsável pelos processos de pagamento, faturamento e transações financeiras. Embora seja de extrema importância para a lanchonete fast food, é uma funcionalidade comum a muitos tipos de negócios.
+
+- **Financeiro:** A gestão financeira tem papel fundamental para a saúde e sustentabilidade de qualquer negócio, e a lanchonete não é exceção. Através deste subdomínio, a empresa pode acompanhar seus custos, margens de lucro, impostos e outras informações financeiras críticas para tomada de decisão.
+
+- **Recursos Humanos:** Este subdomínio desempenha um papel fundamental na gestão da equipe que trabalha na lanchonete, assegurando que haja pessoal adequado para todas as tarefas diárias. Sua responsabilidade principal consiste em garantir que a lanchonete esteja em conformidade com todas as regulamentações trabalhistas, proporcionando um ambiente de trabalho seguro e produtivo para seus funcionários. Isso é alcançado por meio do recrutamento e capacitação de profissionais apropriados.
+
