@@ -1,18 +1,28 @@
-# Domain Discovery 💡
+# Desenho de Solução 📐
 
-- [Visão Geral do Problema](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#vis%C3%A3o-geral-do-problema)
+- [Visão Geral da Solução](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#vis%C3%A3o-geral-do-problema)
 - [Mapeamento de Domínios e Subdomínios](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#mapeamento-de-dom%C3%ADnios-e-subdom%C3%ADnios)
   - [Core Domains](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#core-domains)
   - [Supporting Domains](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#supporting-domains)
   - [Generic Domains](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#generic-domains)
 - [Dicionário de Linguagem Ubíqua](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#dicion%C3%A1rio-de-linguagem-ub%C3%ADqua)
 
-## Visão Geral da Solução
+## Premissas
 
-### Visão Macro da Solução
+## Visão Macro da Solução
 <p align="center">
-  <img width="100%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/diagrama-contexto-macro.png" alt="Diagrama de Contexto">
+  <img width="100%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/diagrama-contexto-macro.png" alt="Visão Macro">
 </p>
+
+## Visão Completa da Solução
+Segue abaixo o desenho de solução completa, na qual será detalhada em seções posteriores.
+
+<p align="center">
+  <img width="100%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/solucao-completa.png" alt="Solução">
+</p>
+
+## Visão Detalhada
+Nesta seção iremos detalhar cada parte do desenho de soluções, justificando as decisões e componentes utilizados.
 
 ### Aplicações dos Usuários
 
