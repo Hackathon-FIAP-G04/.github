@@ -39,7 +39,11 @@ Segue abaixo os componentes referentes as aplicações dos usuários:
 
 Para atender aos requisitos de autenticação de usuários, optamos por utilizar o serviço de identidade da **AWS** chamado **Amazon Cognito**. Utilizamos dois user pools: o **healthmed-doctors-user-pool** para os médicos e o **healthmed-patients-user-pool** para os pacientes.
 
-**Amazon Cognito** oferece uma solução robusta para gerenciar a autenticação, autorização e usuários, proporcionando várias vantagens:
+<p align="center">
+  <img width="100%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/autenticacao-de-usuario.png" alt="Diagrama de Contexto">
+</p>
+
+**(1) - Amazon Cognito** oferece uma solução robusta para gerenciar a autenticação, autorização e usuários, proporcionando várias vantagens:
 
 * Segurança Avançada: Amazon Cognito implementa várias camadas de segurança, incluindo autenticação multifatorial (MFA), verificação de e-mail e número de telefone, além de detecção de comportamento suspeito.
 
@@ -53,9 +57,6 @@ Para atender aos requisitos de autenticação de usuários, optamos por utilizar
 
 * Gerenciamento de Sessões e Tokens: O serviço lida com a geração e a renovação de tokens de acesso e de atualização, facilitando o gerenciamento de sessões e a segurança da aplicação.
 
-<p align="center">
-  <img width="100%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/autenticacao-de-usuario.png" alt="Diagrama de Contexto">
-</p>
 
 ### Gestão de Médicos
 
