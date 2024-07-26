@@ -158,3 +158,10 @@ Para atender o escopo de realização de video chamadas entre Médico e Paciente
 
 **(3) - Aplicações Cliente:** **Front End** que realiza conexão no **Zoom** por meio de **SDK** utilizando o token gerado.
 
+### Prontuário Eletrônico
+
+Para desenvolver uma solução de prontuário eletrônico onde pacientes podem fazer upload de arquivos, o design deve contemplar tanto os aspectos de **segurança** e **privacidade** quanto a **interoperabilidade**. Entendemos que para atender esses aspectos a solução de **Blockchain** é super indicada.
+
+<p align="center">
+  <img width="100%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/prontuario-eletronico-solucao.png" alt="Prontuário Eletrônico">
+</p>
