@@ -11,7 +11,7 @@
   - [Gestão de Pacientes](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/solucao.md#gest%C3%A3o-de-pacientes)
   - [Agendamento de Consulta Médica](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/solucao.md#agendamento-de-consulta-m%C3%A9dica)
   - [Notificação](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/solucao.md#notifica%C3%A7%C3%A3o)
-  - [Telemedicina](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/solucao.md#telemedicina)
+  - [Teleconsulta](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/solucao.md#teleconsulta)
   - [Prontuário Eletrônico](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/solucao.md#prontu%C3%A1rio-eletr%C3%B4nico)
 - [Tecnologias](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/solucao.md#tecnologias)
 
@@ -185,7 +185,7 @@ Visando trazer melhor experiência para os usuários da plataforma Health&Med, i
 **(7) - Reprocessador de Notificações:** Serviço de reprocessamento de mensagens com erro.
 
 
-### Telemedicina
+### Teleconsulta
 
 Para atender o escopo de realização de video chamadas entre Médico e Paciente optamos pela utilização de um serviço externo da plataforma Zoom como mostra a imagem abaixo:
 
