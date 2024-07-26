@@ -34,6 +34,7 @@ Segue abaixo os componentes referentes as aplicações dos usuários:
 **(9) - Serviços de Domínio:** Refere-se ao conjunto de microsserviços de domínios: **Gestão de Pacientes**, **Gestão de Médicos**, **Prontuário Eletrônico**, **Agendamento de Consulta Médica**, **Serviço de Video Chamada** e **Serviço de Notificação**.
 
 
+
 ### Autenticação do Usuário
 
 Para atender aos requisitos de autenticação de usuários, optamos por utilizar o serviço de identidade da **AWS** chamado **Amazon Cognito**. Utilizamos dois user pools: o **healthmed-doctors-user-pool** para os médicos e o **healthmed-patients-user-pool** para os pacientes.
@@ -53,7 +54,7 @@ Para atender aos requisitos de autenticação de usuários, optamos por utilizar
 * Gerenciamento de Sessões e Tokens: O serviço lida com a geração e a renovação de tokens de acesso e de atualização, facilitando o gerenciamento de sessões e a segurança da aplicação.
 
 <p align="center">
-  <img width="100%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/aplicacoes-do-usuario.png" alt="Diagrama de Contexto">
+  <img width="100%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/autenticacao-de-usuario.png" alt="Diagrama de Contexto">
 </p>
 
 ### Gestão de Médicos
