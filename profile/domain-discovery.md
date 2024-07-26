@@ -40,11 +40,11 @@ Um domínio se refere a uma esfera de conhecimento ou atividade no mundo real qu
 Por outro lado, um subdomínio é uma subdivisão ou área menor de conhecimento ou atividade dentro de um domínio mais amplo. Os subdomínios representam uma granularização desse espaço de problema e podem se concentrar em tópicos ou aspectos específicos dentro do domínio principal. Isso ajuda a organizar e categorizar o conhecimento de forma mais detalhada e específica. Desta forma, entendemos que o Domínio de Telemedicina possui os seguintes subdomínios:
 
 ### Core Domains
-Os domínios principais **(Core Domains)** são aqueles que estão no cerne do negócio e geralmente são os mais complexos e específicos, dos quais temos **Agendamento de Consulta Médica**, **Prontuário Eletrônico** e **Teleconsulta ou Video Chamada**.
+Os domínios principais **(Core Domains)** são aqueles que estão no cerne do negócio e geralmente são os mais complexos e específicos, dos quais temos **Agendamento de Consulta Médica**, **Prontuário Eletrônico** e **Teleconsulta**.
 
 - **Agendamento de Consulta Médica:** Este subdomínio abrange todas as funcionalidades relacionadas ao gerenciamento de horários e consultas entre médicos e pacientes. Médicos podem cadastrar e editar seus horários disponíveis, aceitar ou recusar consultas agendadas pelos pacientes, enquanto os pacientes podem buscar médicos, visualizar suas agendas e agendar ou cancelar consultas conforme necessário.
 
-- **Teleconsulta ou Video Chamada:** Focado na realização de consultas médicas online, este subdomínio inclui a criação automática de links para reuniões online quando uma consulta é agendada. No dia da consulta, tanto o médico quanto o paciente utilizam este link para realizar a teleconsulta, facilitando o atendimento médico à distância.
+- **Teleconsulta:** Focado na realização de consultas médicas online, este subdomínio inclui a criação automática de links para reuniões online quando uma consulta é agendada. No dia da consulta, tanto o médico quanto o paciente utilizam este link para realizar a teleconsulta, facilitando o atendimento médico à distância.
 
 - **Prontuário Eletrônico:** Este subdomínio é dedicado ao armazenamento e gerenciamento de informações médicas dos pacientes. Permite aos pacientes acessar seus prontuários eletrônicos, fazer upload de documentos como exames e laudos médicos, e gerenciar o compartilhamento desses documentos com médicos, definindo acessos específicos e durações. 
 
