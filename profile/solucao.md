@@ -1,3 +1,12 @@
+# Domain Discovery 💡
+
+- [Visão Geral do Problema](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#vis%C3%A3o-geral-do-problema)
+- [Mapeamento de Domínios e Subdomínios](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#mapeamento-de-dom%C3%ADnios-e-subdom%C3%ADnios)
+  - [Core Domains](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#core-domains)
+  - [Supporting Domains](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#supporting-domains)
+  - [Generic Domains](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#generic-domains)
+- [Dicionário de Linguagem Ubíqua](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#dicion%C3%A1rio-de-linguagem-ub%C3%ADqua)
+
 ## Visão Geral da Solução
 
 ### Visão Macro da Solução
