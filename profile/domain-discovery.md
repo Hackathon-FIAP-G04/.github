@@ -41,10 +41,6 @@ Nesta seção, através da aplicação da metodologia do Domain Storytelling, ir
 ### Atores
 Partindo como base o documento de requisitos fornecido na abertura do Hackathon, 3 atores foram identificadosl:
 
-<p align="center">
-  <img width="680" src="https://github.com/FIAP-G04/.github/assets/5951374/0f0a5bb4-735e-4ab6-b103-590f319eb15f" alt="Nosso Grupo">
-</p>
-
 | Atores | Descrição |
 |--------|-----------|
 | Paciente | Usuário que busca consultas médicas e utiliza os serviços de telemedicina da Health&Med. Pode agendar consultas, acessar seu prontuário eletrônico, fazer upload de documentos médicos e compartilhar informações com médicos. |
