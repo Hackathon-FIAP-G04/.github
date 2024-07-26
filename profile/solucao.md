@@ -78,3 +78,16 @@ Para representar o subdomínio **Gestão de Médicos**, optamos pela criação d
 
 
 ### Gestão de Pacientes
+
+Para representar o subdomínio **Gestão de Pacientes**, optamos pela criação de um microsserviço para expor as seguintes funcionalidades:
+* Cadastrar Paciente
+* Alterar dados do Paciente
+* Visualizar dados do Paciente
+
+<p align="center">
+  <img width="80%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/gestao-de-paciente-solucao.png" alt="Gestão de Pacientes">
+</p>
+
+**(1) - Serviço de Gestão de Paciente:** API destinada a fornecer operações relacionadas à entidade Paciente. Esta API está sendo provisionada em **Kubernetes**, utilizando o serviço **Amazon Elastic Kubernetes Service (EKS)**.
+
+**(2) - Banco de Dados:** Para o armazenamento dos dados do Paciente, optamos por utilizar o **Atlas MongoDB**, pois a estrutura de dados do Paciente segue um modelo de **Aggregate**, que se adapta perfeitamente ao banco de dados orientado a documentos.
