@@ -1,18 +1,11 @@
 # Domain Discovery 💡
 
-- [Visão Geral do Problema]([#](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#vis%C3%A3o-geral-do-problema))
+- [Visão Geral do Problema](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#vis%C3%A3o-geral-do-problema)
 - [Mapeamento de Domínios e Subdomínios](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#mapeamento-de-dom%C3%ADnios-e-subdom%C3%ADnios)
   - [Core Domains](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#core-domains)
   - [Supporting Domains](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#supporting-domains)
   - [Generic Domains](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#generic-domains)
-- [Análise de Subdomínios no Cenário TO-BE](https://github.com/FIAP-G04/.github/blob/main/profile/Domain-Discovery.md#an%C3%A1lise-de-subdom%C3%ADnios-no-cen%C3%A1rio-to-be)
-- [Análise Estratégica dos Subdomínios](https://github.com/FIAP-G04/.github/blob/main/profile/Domain-Discovery.md#an%C3%A1lise-estrat%C3%A9gica-dos-subdom%C3%ADnios)
-- [Visão Geral da Solução](https://github.com/FIAP-G04/.github/blob/main/profile/Domain-Discovery.md#vis%C3%A3o-geral-da-solu%C3%A7%C3%A3o)
-  - [Módulo de Autoatendimento](https://github.com/FIAP-G04/.github/blob/main/profile/Domain-Discovery.md#m%C3%B3dulo-de-autoatendimento)
-  - [Módulo de Acompanhamento de Pedido](https://github.com/FIAP-G04/.github/blob/main/profile/Domain-Discovery.md#m%C3%B3dulo-de-acompanhamento-de-pedido)
-  - [Módulo de Gestão de Cardápio](https://github.com/FIAP-G04/.github/blob/main/profile/Domain-Discovery.md#m%C3%B3dulo-de-gest%C3%A3o-de-card%C3%A1pio)
-- [Dicionário de Linguagem Ubíqua](https://github.com/FIAP-G04/.github/blob/main/profile/Domain-Discovery.md#dicion%C3%A1rio-de-linguagem-ub%C3%ADqua)
-- [Event Storming](https://github.com/FIAP-G04/.github/blob/main/profile/Domain-Discovery.md#event-storming)
+- [Dicionário de Linguagem Ubíqua](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#dicion%C3%A1rio-de-linguagem-ub%C3%ADqua)
 
 ## Visão Geral do Problema
 <p align="center">
