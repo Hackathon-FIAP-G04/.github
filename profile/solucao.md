@@ -121,6 +121,29 @@ Essa abordagem assegura que a agenda dos médicos seja atualizada continuamente 
 **(6) - Fila de Status de Consulta Alterado:** Fila que recebe todas as alterações de estados sofridos por uma consulta médica como: **Consulta Aceita**, **Consulta Recusada**, **Consulta Cancelada** e **Consulta Concluída** para envio de notificação.
 
 
+### Notificação
+
+Visando trazer melhor experiência para os usuários da plataforma Health&Med, incluímos um recurso de notificação por email para as mudanças de status de uma consulta médica, como ilustra a imagem abaixo:
+
+<p align="center">
+  <img width="100%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/notificacao-solucao.png" alt="Gestão de Médicos">
+</p>
+
+**(1) - Fila de Status de Consulta Alterado:** Fila que recebe todas as alterações de estados sofridos por uma consulta médica como: **Consulta Aceita**, **Consulta Recusada**, **Consulta Cancelada** e **Consulta Concluída** para envio de notificação.
+
+**(2) - Notificador de Status de Consulta:** Optamos pela utilização de um recurso Serverless, pois entendemos que com AWS Lambda, você só paga pelo tempo de computação que realmente utiliza, sem necessidade de manter servidores sempre ativos. Isso pode resultar em economias significativas, especialmente para aplicações com cargas de trabalho variáveis ou esporádicas como este.
+
+**(3) - Serviço de Gestão de Médico:** API destinada a fornecer operações relacionadas à entidade Médico. Esta API está sendo provisionada em **Kubernetes**, utilizando o serviço **Amazon Elastic Kubernetes Service (EKS)**.
+
+**(1) - Serviço de Gestão de Paciente:** API destinada a fornecer operações relacionadas à entidade Paciente. Esta API está sendo provisionada em **Kubernetes**, utilizando o serviço **Amazon Elastic Kubernetes Service (EKS)**.
+
+**(5) - Amazon Simple Email Service (SES):** Serviço externo de envio de Email da AWS.
+
+**(6) - Fila de Notificações com Falha de Envio:** Implementação de um mecanismo de Deadletter Queue para envio dos emails.
+
+**(7) - Reprocessador de Notificações:** Serviço de reprocessamento de mensagens com erro.
+
+
 ### Serviço de Video Chamada
 
 Para atender o escopo de realização de video chamadas entre Médico e Paciente optamos pela utilização de um serviço externo da plataforma Zoom como mostra a imagem abaixo:
