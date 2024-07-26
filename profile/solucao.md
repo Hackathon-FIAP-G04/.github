@@ -217,9 +217,11 @@ Para desenvolver uma solução de prontuário eletrônico onde pacientes podem f
 
 **(5) - Fila de Documentos Adicionados:** Fila que recebe os eventos após um upload de documento.
 
-**(6) - Processador de Documento Adicionado:**
+**(6) - Processador de Documento Adicionado:** Lambda que após a inclusão de um documento, gera os metadados de busca e o registro na Blockchain.
 
-**(7) - Serviço de Blockchain:**
+**(7) - Serviço de Blockchain:** A utilização de Blockchain para gerenciar transações e registros de metadados garante maior integridade e imutabilidade dos registros, proporcionando, assim, maior segurança.
+
+**(8) - Banco de Metadados:** Visando possibilitar consultas de documentos, optamos por gerar um banco de dados de metadados utilizando DynamoDB.
 
 ### Tecnologias
 
