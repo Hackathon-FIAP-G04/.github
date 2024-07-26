@@ -34,27 +34,10 @@ gerenciamento eficiente desses agendamentos e consultas.
 Além de conter as funcionalidades de agendamento e realização de consultas online, o sistema terá o diferencial de uma nova funcionalidade: o Prontuário Eletrônico. O Prontuário Eletrônico permitirá o armazenamento e compartilhamento de documentos, exames, cartão de vacinas, e outros registros
 médicos entre as partes envolvidas, garantindo maior assertividade nos diagnósticos.
 
-## Decomposição do Problema na Visão de Domain Storytelling
-
-Nesta seção, através da aplicação da metodologia do Domain Storytelling, iremos explorar os requisitos funcionais e os atores centrais que desempenham papéis fundamentais nas narrativas compartilhadas no Hackathon.
-
-### Atores
-Partindo como base o documento de requisitos fornecido na abertura do Hackathon, 3 atores foram identificadosl:
-
-| Atores | Descrição |
-|--------|-----------|
-| Paciente | Usuário que busca consultas médicas e utiliza os serviços de telemedicina da Health&Med. Pode agendar consultas, acessar seu prontuário eletrônico, fazer upload de documentos médicos e compartilhar informações com médicos. |
-| Médico | Profissional de saúde registrado na plataforma da Health&Med. Pode gerenciar sua agenda de consultas, aceitar ou recusar consultas, realizar teleconsultas e acessar prontuários eletrônicos compartilhados pelos pacientes. |
-| Sistema | Plataforma tecnológica da **Health&Med** utilizada como meio de interação entre Paciente e Médico. |
-
 ## Mapeamento de Domínios e Subdomínios
 Um domínio se refere a uma esfera de conhecimento ou atividade no mundo real que abrange um espaço de problema específico. Esse domínio possui sua própria linguagem, conceitos, regras e práticas que o tornam únicos. No contexto do Hackathon o nosso domínio é **Telemedicina**.
 
 Por outro lado, um subdomínio é uma subdivisão ou área menor de conhecimento ou atividade dentro de um domínio mais amplo. Os subdomínios representam uma granularização desse espaço de problema e podem se concentrar em tópicos ou aspectos específicos dentro do domínio principal. Isso ajuda a organizar e categorizar o conhecimento de forma mais detalhada e específica. Desta forma, entendemos que o Domínio de Telemedicina possui os seguintes subdomínios:
-
-<p align="center">
-  <img width="90%" src="https://github.com/FIAP-G04/.github/blob/main/images/subdominios-as-is.png" alt="Subdomínios AS-IS">
-</p>
 
 ### Core Domains
 Os domínios principais **(Core Domains)** são aqueles que estão no cerne do negócio e geralmente são os mais complexos e específicos, dos quais temos **Agendamento de Consulta Médica**, **Prontuário Eletrônico** e **Teleconsulta ou Video Chamada**.
