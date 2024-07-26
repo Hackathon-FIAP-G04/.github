@@ -81,4 +81,23 @@ Os domínios genéricos **(Generic Domains)** são geralmente aqueles que não s
 
 - **Autenticação & Autorização:** Responsável por garantir que médicos e pacientes possam acessar o sistema de forma segura. Médicos utilizam seu número de CRM e uma senha para login, enquanto pacientes usam e-mail, CPF e senha. Este subdomínio garante que apenas usuários autorizados acessem o sistema.
 
+## Dicionário de Linguagem Ubíqua
+Segue abaixo um conjunto de palavras que compõem o dicionário de **linguagem ubíqua** ao contexto da **Health&Med**:
 
+| Termo                        | Definição                                                                                                         |
+|------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| **Paciente**                 | Usuário do sistema que busca serviços médicos, agenda consultas e gerencia seu prontuário eletrônico.              |
+| **Médico**                   | Profissional de saúde registrado que oferece consultas, realiza atendimentos e gerencia sua agenda de consultas.   |
+| **Consulta**                 | Interação programada entre um médico e um paciente, realizada por teleconsulta.                |
+| **Agendamento de Consulta**  | Processo pelo qual um paciente marca uma consulta com um médico, selecionando data e hora disponíveis.             |
+| **Teleconsulta**             | Consulta médica realizada remotamente por meio de uma plataforma online, usando um link gerado para reunião virtual. |
+| **Prontuário Eletrônico**    | Documento digital que armazena informações médicas do paciente, incluindo exames, laudos e histórico de consultas. |
+| **Autenticação**             | Processo de verificação da identidade do usuário para acesso ao sistema, utilizando credenciais como número de CRM e CPF. |
+| **Notificação**              | Comunicação enviada aos usuários para informá-los sobre eventos importantes, como agendamentos e lembretes.        |
+| **Cadastro de Horários Disponíveis** | Funcionalidade que permite aos médicos definir e atualizar seus horários disponíveis para consultas.               |
+| **Aceite de Consulta**       | Ação do médico para confirmar sua disponibilidade e concordar com uma consulta agendada por um paciente.           |
+| **Recusa de Consulta**       | Ação do médico para negar uma solicitação de consulta agendada por um paciente.                                     |
+| **Cancelamento de Consulta** | Ação do paciente para anular uma consulta previamente agendada, podendo fornecer uma justificativa.                 |
+| **Upload de Documentos**     | Processo pelo qual um paciente adiciona documentos, como exames e laudos, ao seu prontuário eletrônico.             |
+| **Compartilhamento de Documentos** | Funcionalidade que permite ao paciente definir quais documentos do prontuário eletrônico podem ser acessados por médicos e por quanto tempo. |
+| **Link de Reunião Online**   | URL gerada pelo sistema para acesso à teleconsulta, facilitando a reunião virtual entre médico e paciente.          |
