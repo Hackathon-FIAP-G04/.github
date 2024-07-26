@@ -179,3 +179,19 @@ Para desenvolver uma solução de prontuário eletrônico onde pacientes podem f
 **(6) - Processador de Documento Adicionado:**
 
 **(7) - Serviço de Blockchain:**
+
+### Tecnologias
+
+Para a solução, foram utilizadas as seguintes tecnologias:
+
+* **.NET 8.0** para o desenvolvimento das APIs dos microsserviços
+* **Kubernetes** para gerenciar os recursos da API
+* **Helm** para gerar os artefatos Kubernetes
+* **MongoDB** como base de dados das APIs
+* **GeoJson** como recurso para consulta dos médicos a partir da localização
+* **SonarQube** para analisar a qualidade do código
+* **EKS** como infraestrutura de cluster Kubernetes na Cloud
+* **Amazon API Gateway** para gerenciar o acesso às APIs
+* **Cognito** como pool de usuários que acessam a API
+* **Atlas MongoDB** como recurso para gerar as bases de dados na Cloud
+* **Terraform** para gerenciar e gerar os recursos na Cloud
