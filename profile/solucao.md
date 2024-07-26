@@ -7,7 +7,21 @@
   - [Generic Domains](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#generic-domains)
 - [Dicionário de Linguagem Ubíqua](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/domain-discovery.md#dicion%C3%A1rio-de-linguagem-ub%C3%ADqua)
 
+## Introdução
+Este documento visa apresentar o desenho da solução ideal que atenderá aos requisitos funcionais e não funcionais especificados no problema do Hackathon. A solução proposta inclui funcionalidades essenciais como autenticação de usuários (médicos e pacientes), agendamento e gestão de consultas, notificação de usuários, Teleconsulta e Prontuário Eletrônico. 
+
 ## Premissas
+Para garantir que a solução desenvolvida atenda às expectativas de desempenho, segurança e escalabilidade, as seguintes premissas arquiteturais foram adotadas:
+
+- **Microserviços:** O sistema será dividido em microserviços independentes, cada um responsável por uma funcionalidade específica. Isso permitirá que cada serviço seja escalado de forma independente, conforme a demanda. Além de permitir a escalabilidade dos times de desenvolvimento por meio da divisão clara de responsabilidades e contextos.
+  
+- **Segurança:** A segurança dos dados será uma prioridade, seguindo as melhores práticas de segurança da informação, incluindo criptografia de dados em trânsito e em repouso, autenticação forte e controle de acesso baseado em funções (RBAC).
+
+- **Alta Disponibilidade:** O sistema será projetado para garantir alta disponibilidade (24/7), com mecanismos de failover e balanceamento de carga para assegurar que o serviço permaneça disponível mesmo em casos de falhas de componentes individuai através da utilização de Kubernetes e arquitetura Serverless.
+
+- **Escalabilidade Horizontal:** A arquitetura suportará a escalabilidade horizontal, permitindo adicionar mais instâncias de microserviços para lidar com aumentos na carga de trabalho, especialmente durante os horários de pico.
+
+- **Nuvem:** A solução será implementada em uma infraestrutura de nuvem, aproveitando serviços gerenciados para banco de dados, balanceamento de carga, armazenamento e segurança. Isso permitirá uma gestão mais eficiente e a capacidade de escalar rapidamente conforme necessário.
 
 ## Visão Macro da Solução
 <p align="center">
