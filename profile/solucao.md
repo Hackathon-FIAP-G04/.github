@@ -33,8 +33,28 @@ Segue abaixo os componentes referentes as aplicações dos usuários:
 
 **(9) - Serviços de Domínio:** Refere-se ao conjunto de microsserviços de domínios: **Gestão de Pacientes**, **Gestão de Médicos**, **Prontuário Eletrônico**, **Agendamento de Consulta Médica**, **Serviço de Video Chamada** e **Serviço de Notificação**.
 
+
 ### Autenticação do Usuário
 
+Para atender aos requisitos de autenticação de usuários, optamos por utilizar o serviço de identidade da **AWS** chamado **Amazon Cognito**. Utilizamos dois user pools: o **healthmed-doctors-user-pool** para os médicos e o **healthmed-patients-user-pool** para os pacientes.
+
+**Amazon Cognito** oferece uma solução robusta para gerenciar a autenticação, autorização e usuários, proporcionando várias vantagens:
+
+* Segurança Avançada: Amazon Cognito implementa várias camadas de segurança, incluindo autenticação multifatorial (MFA), verificação de e-mail e número de telefone, além de detecção de comportamento suspeito.
+
+* Escalabilidade: O serviço é altamente escalável, suportando milhões de usuários e garantindo que o sistema possa crescer conforme a demanda aumenta sem comprometer o desempenho.
+
+* Integração com Outras Ferramentas da AWS: Amazon Cognito se integra facilmente com outros serviços da AWS, como AWS Lambda e Amazon API Gateway facilitando a criação de soluções completas e coesas.
+
+* Suporte a Padrões de Autenticação: O serviço suporta padrões de autenticação como OAuth 2.0, SAML 2.0, e OpenID Connect, permitindo a integração com provedores de identidade de terceiros, como Google, Facebook e Apple.
+
+* Personalização e Flexibilidade: Cognito permite personalizar as telas de login e outros fluxos de autenticação para melhor atender às necessidades e à identidade visual da aplicação.
+
+* Gerenciamento de Sessões e Tokens: O serviço lida com a geração e a renovação de tokens de acesso e de atualização, facilitando o gerenciamento de sessões e a segurança da aplicação.
+
+<p align="center">
+  <img width="100%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/aplicacoes-do-usuario.png" alt="Diagrama de Contexto">
+</p>
 
 ### Gestão de Médicos
 
