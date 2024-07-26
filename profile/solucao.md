@@ -252,6 +252,6 @@ Para a solução, foram utilizadas as seguintes tecnologias:
 A seguir estão os repositórios criados para desenvolver a aplicação MVP:
 
 * [healthmed-doctor](https://github.com/Hackathon-FIAP-G04/healthmed-doctor) - API de gerenciamento de Médicos
-* https://github.com/Hackathon-FIAP-G04/healthmed-appointment - API para gerencimento de agendamentos
-* https://github.com/Hackathon-FIAP-G04/terraform - Estrutura do Terraform para VPC, cluster EKS, Api Gateway e Cognito
-* https://github.com/Hackathon-FIAP-G04/data - Estrutura do Terraform para as bases de dados criadas no Atlas MongoDB
+* [healthmed-appointment](https://github.com/Hackathon-FIAP-G04/healthmed-appointment) - API para gerencimento de agendamentos
+* [terraform](https://github.com/Hackathon-FIAP-G04/terraform) - Estrutura do Terraform para VPC, cluster EKS, Api Gateway e Cognito
+* [data](https://github.com/Hackathon-FIAP-G04/data) - Estrutura do Terraform para as bases de dados criadas no Atlas MongoDB
