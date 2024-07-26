@@ -105,8 +105,21 @@ Para atender aos requisitos de agendamento de consultas médicas, implementamos 
 Essa abordagem assegura que a agenda dos médicos seja atualizada continuamente e de forma precisa, permitindo um processo de agendamento eficiente e confiável.
 
 <p align="center">
-  <img width="80%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/agendamento-de-consulta-solucao.png" alt="Agendamento de Consulta Médica">
+  <img width="100%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/agendamento-de-consulta-solucao.png" alt="Agendamento de Consulta Médica">
 </p>
+
+**(1) - Serviço de Agendamento de Consulta:** API de abstrai os serviços de agendamento de consulta médica que pode ser utilizado por **Médico** e **Paciente**.
+
+**(2) - Banco de Dados:** Optamos pela utilização do MongoDB para armazenamento de dados de consulta médica.
+
+**(3) - Planejador de Agenda Mensal:** Rotina automatizada que geram diariamente os slots nas agendas dos médicos baseado nas configurações de horário disponíveis.
+
+**(4) - Fila de Solicitação de Criação de Agenda:** Optamos pela utilização de mensageria para ganhar escala usando o serviço SQS. 
+
+**(5) - Criador de Agenda:** Lambda que cria os slots nas agendas dos médicos.
+
+**(6) - Fila de Status de Consulta Alterado:** Fila que recebe todas as alterações de estados sofridos por uma consulta médica como: **Consulta Aceita**, **Consulta Recusada**, **Consulta Cancelada** e **Consulta Concluída** para envio de notificação.
+
 
 ### Serviço de Video Chamada
 
