@@ -14,6 +14,7 @@
   - [Teleconsulta](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/solucao.md#teleconsulta)
   - [Prontuário Eletrônico](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/solucao.md#prontu%C3%A1rio-eletr%C3%B4nico)
 - [Tecnologias](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/solucao.md#tecnologias)
+- [Vídeo](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/solucao.md#v%C3%ADdeo)
 
 ## Introdução
 Este documento visa apresentar o desenho da solução ideal que atenderá aos requisitos funcionais e não funcionais especificados no problema do Hackathon. A solução proposta inclui funcionalidades essenciais como autenticação de usuários (médicos e pacientes), agendamento e gestão de consultas, notificação de usuários, Teleconsulta e Prontuário Eletrônico. 
