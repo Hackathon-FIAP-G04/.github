@@ -149,7 +149,7 @@ Essa abordagem assegura que a agenda dos médicos seja atualizada continuamente 
   <img width="100%" src="https://github.com/Hackathon-FIAP-G04/.github/blob/main/images/agendamento-de-consulta-solucao.png" alt="Agendamento de Consulta Médica">
 </p>
 
-**(1) - Serviço de Agendamento de Consulta:** API de abstrai os serviços de agendamento de consulta médica que pode ser utilizado por **Médico** e **Paciente**.
+**(1) - Serviço de Agendamento de Consulta:** API de abstrai os serviços de agendamento de consulta médica que pode ser utilizado por **Médico** e **Paciente**. Esta API está sendo provisionada em **Kubernetes**, utilizando o serviço **Amazon Elastic Kubernetes Service (EKS)**.
 
 **(2) - Banco de Dados:** Optamos pela utilização do MongoDB para armazenamento de dados de consulta médica.
 
