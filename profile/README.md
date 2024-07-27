@@ -30,5 +30,6 @@ O objetivo principal desta organização é reunir toda a documentação e os re
   - [Telemedicina](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/solucao.md#telemedicina)
   - [Prontuário Eletrônico](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/solucao.md#prontu%C3%A1rio-eletr%C3%B4nico)
 - [Tecnologias](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/solucao.md#tecnologias)
+- [Repositórios MVP](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/solucao.md#reposit%C3%B3rios-do-mvp)
 - [Vídeo](https://github.com/Hackathon-FIAP-G04/.github/blob/main/profile/solucao.md#v%C3%ADdeo)
 
